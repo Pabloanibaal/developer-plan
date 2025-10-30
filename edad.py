@@ -1,10 +1,10 @@
-#Dia 1 - Calculo de edad
+#Day 1 - Age calculator
 
-nombre = input("¿Como te llamas? ")
-nacimiento = int(input("¿En que año naciste "))
+name = input("What's your name? ")
+birth = int(input("What year were you born? "))
 
-#Calculamos la edad en 2025
+#Calculate the age in 2025
 
-edad = 2025 - nacimiento
+age = 2025 - birth
 
-print(f"Hola {nombre}, naciste en {nacimiento} y tienes {edad} años.")
+print(f"Hello {name}, you were born in {birth} and you are {age} years old.")
